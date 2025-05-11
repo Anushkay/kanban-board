@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 // List of public paths that don't require auth
 const publicPaths = [
   '/login',
-  '/register',
+  '/signup',
   '/_next',
   '/favicon.ico'
 ]
